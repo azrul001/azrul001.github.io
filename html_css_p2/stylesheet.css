@@ -1,0 +1,132 @@
+body, h1, h2, h3, h4, h5, h6, p, ul, li{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	font-family: verdana, sans-serif;
+	background-color: #000;
+}
+#wrapper{
+	width: 700px;
+	margin: 20px auto;
+	background-color: grey;
+
+}
+#header{
+	background-color: rgb(89,30,205);
+	height: 80px;
+	width: 700px;
+	text-align: center;
+	
+}
+#header h1{
+	padding-top: 20px;
+	background: -moz-linear-gradient(top, #8144d6, #320571);
+	background: -webkit-gradient(linear, left top, left bottom, from(#320571), to(#8144d6));
+}
+#line{
+	width: 700px;
+	background-color: #999;
+	height: 2px;
+}
+#links{
+	width: 700px;
+	background-color: #666;
+
+}
+#navs{
+	width: 364px;
+	background-color: #666;
+	height: 40px;
+	margin: 0 auto;
+
+}
+#navs ul{
+	list-style: none;
+
+}
+#navs ul li{
+	float: left;
+	margin: 0 auto;
+
+}
+#navs ul li a{
+	display: block;
+	height: 27px;
+	line-height: 25px;
+	background-color: #000;
+	width: 75px;
+	font-size: 0.8em;
+	font-weight: bold;
+	color: #fff;
+	text-align: center;
+	text-decoration: none;
+	margin: 6px 7px;
+	border-radius: 100%;
+	border:1px solid #000;
+	background: -moz-linear-gradient(top, #000, #666);
+	background: -webkit-gradient(linear, left top, left bottom, from(#666), to(#333));
+}
+#navs ul li a:hover {
+	background: -moz-linear-gradient(top, #000, #666);
+	background: -webkit-gradient(linear, left top, left bottom, from(#000), to(#666));
+}
+#navs ul li a.current, #navs ul li a.current:hover{
+	background-color: #333
+	background: -moz-linear-gradient(top, #000, #666);
+	background: -webkit-gradient(linear, left top, left bottom, from(#000), to(#666));
+	color: #f63;
+	cursor: default;
+}
+#about{
+	width: 700px;
+	background-color: #333;
+	padding-top: 60px;
+	padding-bottom: 60px;
+}
+#content{
+	width: 430px;
+	margin: 0 auto;
+	background-color: #222;
+	border: 1px solid #000;
+	background: -moz-linear-gradient(top, #666, #333, #222);
+	background: -webkit-gradient(linear, left top, left bottom, from(#666), to(#222), color-stop(0.5, #333));
+	border-radius: 15px;
+
+	-moz-border-radius: 15px;
+	-webkit-border-radius: 15px;
+
+	box-shadow: 2px 2px 4px #000;
+	-moz-box-shadow: 2px 2px 4px #000;
+	-webkit-box-shadow: 2px 2px 4px #000;
+}
+#content img{
+	float: left;
+	border: 1px solid #000;
+	background-color: #333;/*for browser who cant*/
+	padding: 16px;
+	margin: 0.7em;
+	background: -moz-linear-gradient(top, #000, #333);
+	background: -webkit-gradient(linear, left top, left bottom, from(#000), to(#333));
+	border-radius: 15px;
+	-moz-border-radius: 15px;
+	-webkit-border-radius: 15px;
+}
+#content h5{
+	color: #fff;
+	padding-top: 0.8em 0em 0em 0em;
+
+}
+#content p{
+	font-size: 0.7em;
+	color: #999;
+	padding: 0.7em;
+	line-height: 1.4em;
+}
+#footer{
+	background-color: #222;
+	height: 10px;
+	width: 700px;
+	border-bottom: 1px solid #333;
+}
