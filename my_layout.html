@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+<style type="text/css">
+*{
+	margin: 0;
+	padding: 0;
+}
+#header {
+	border: 1px solid red;
+    text-align: center;
+    height: 100px;
+    line-height: 100px;
+    margin: 2px;
+}
+#container{
+	border: 2px solid yellow;
+}
+.navbar{
+	margin: 2px;
+	border: 1px solid blue;
+	height: 40px;
+}
+.main{
+	border: 1px solid red;
+	margin: 2px;
+	display: inline-block;
+	height: 450px;
+    width: 918px;
+}
+.news{
+	border: 1px solid red;
+	margin: 2px;
+	display: inline-block;
+	height: auto;
+	width: 350px;
+	height: 450px;
+	box-sizing: border-box;
+    padding: 3px;
+}
+.news div {
+    border: 1px dashed blue;
+    height: 125px;
+    width: 327px;
+    margin: 6px;
+}
+ul {
+    display: inline-block;
+}
+li {
+    display: inline-block;
+    width: 115px;
+    height: 33px;
+    border: 1px solid green;
+    border-top-left-radius: 9px;
+    border-bottom-right-radius: 9px;
+    text-align: center;
+    margin: 2px 5px;
+    line-height: 2;
+}
+a {
+    float: right;
+    line-height: 3;
+    margin-right: 5px;
+}
+img {
+    border: 1px solid green;
+    width: 906px;
+    height: 346px;
+}
+div#content {
+    margin-left: 4px;
+}
+div#footer {
+    border: 2px solid green;
+    height: 38px;
+    margin: 2px 0px;
+}
+</style>
+</head>
+<body>
+<div id="header">header</div>
+<div id="container">
+
+	<section class="navbar">
+	<ul>
+		<li>nav 1</li>
+		<li>nav 2</li>
+		<li>nav 3</li>		
+	</ul>
+	<a href="#login">LOGIN</a>
+	</section>
+
+	<section class="main">
+		<div id="content">
+			<h2>Intro</h2>
+			<img src="#img"/>
+			<p>If you ever read the comments on any article, you’ll invariably find someone how it shouldn’t exist as there are ‘more important’ matters and issues. But how do you determine how important a piece is in comparison to others? And what’s the bare minimum importance required to justify its existence?</p>
+		</div>
+		
+	</section>
+
+	<section class="news">
+		<strong>What's new</strong>
+		<div>1</div>
+		<div>2</div>
+		<div>3</div>
+	</section>
+</div>
+<div id="footer">footer</div>
+</body>
+</html>

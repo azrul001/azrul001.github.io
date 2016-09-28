@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+<style type="text/css">
+
+*{
+	margin: 0;
+	padding: 0;
+}
+.header {
+	border: 2px solid blue;
+    text-align: center;
+    height: 88px;
+    line-height: 100px;
+    margin: 2px;
+}
+div#headcontent {
+    border: 1px dashed green;
+    width: 98%;
+    height: 92%;
+    margin: 3px auto;
+    display: inline-block;
+    box-sizing: border-box;
+    padding-left: 15px;
+    padding-right: 5px;
+}
+.header #headcontent p {
+    display: inline;
+    float: left;
+}
+.header #headcontent a {
+    float: right;
+    border: 1px solid black;
+    height: 30px;
+    width: 57px;
+    line-height: 2;
+    display: inline-block;
+    margin: 31px 15px 10px;
+}
+h1 {
+    display: inline;
+}
+section.navbar {
+    border: 2px solid red;
+    margin: 2px;
+    padding: 4px;
+    text-align: center;
+    height: 25px;
+    line-height: 1.5;
+}
+.navbar p {
+    display: inline-block;
+    
+}
+div#links {
+    display: inline-block;
+}
+#daydate{
+	float: left;
+}
+#weather{
+	float: right;
+}
+section.main {
+    border: 2px solid gray;
+    padding: 5px;
+    margin: 0px 2px;
+}
+div#main_news {
+	
+    margin-bottom: 5px;
+    padding: 15px 15px 5px;
+    height: 290px;
+}
+div#border1 {
+    border-bottom: 2px solid lightgrey;
+    width: 920px;
+    margin: auto;
+    margin-bottom: 15px;
+}
+div#border2 {
+    border-bottom: 2px solid lightgrey;
+    width: 470px;
+    margin-bottom: 15px;
+}
+.main #main_news img {
+    float: left;
+    border: 1px dotted blue;
+    height: 279px;
+    width: 370px;
+}
+div#news1 {
+    line-height: 1.5;
+    margin: 20px 52px 0 386px;
+    height: 242px;
+}
+#other img {
+    float: left;
+    border: 1px solid blue;
+    height: 128px;
+    width: 100px;
+    margin-right: 10px;
+    display: inline-block;
+}
+div#news2 {
+    width: 450px;
+    box-sizing: border-box;
+    padding: 10px;
+}
+#other_news{
+	display: inline-block;
+}
+div#other {
+    margin-top: 15px;
+    display: inline-block;
+}
+#latest{
+	display: inline-block;
+	border: 1px dashed green;
+}
+#adv{
+	display: inline-block;
+    border: 1px solid goldenrod;
+    height: 200px;
+    width: 200px;
+}
+.footer{
+	border: 2px solid black;
+	margin: 2px 2px;
+	height: 50px;
+}
+</style>
+
+
+</head>
+<body>
+<section class="header">
+	<div id="headcontent">
+		<p>search</p>
+		<h1>TITLE</h1>
+		<a href="#loginbutton">LOGIN</a>
+	</div>
+</section>
+
+<section class="navbar">
+	<p id="daydate">Day/Date</p>
+	<div id="links">
+		<a href="#home">Home</a>
+		<a href="#about">About</a>
+		<a href="#accessories">Accessories</a>
+		<a href="#contact">Contact</a>
+	</div>
+	<p id="weather">Weather</p>
+</section>
+
+<section class="main">
+	<div id="main_news">
+		<img src="#main_img"/>
+		<div id="news1">
+			<h3>Title</h3></br>
+			<h6>By Gonzalez</h6></br>
+			<p id="the_news">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+		</div>
+	</div>
+	<div id="border1"></div>
+
+	<div id="other_news">
+		<div id="other">
+			<img src="#other_img"/>
+			<div id="news2">
+				<h5>Title</h5>
+				<p id="the_news">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. </p>
+			</div>
+			<div id="border2"></div>
+			<img src="#other_img"/>
+			<div id="news2">
+				<h5>Title</h5>
+				<p id="the_news">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. </p>
+			</div>
+			<div id="border2"></div>
+			<img src="#other_img"/>
+			<div id="news2">
+				<h5>Title</h5>
+				<p id="the_news">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. </p>
+			</div>
+		</div>
+
+
+		<div id="latest">
+			<h3>LATE  REPORT</h3>
+			<h4>Latest headlines</h4>
+			<div id="border3"></div>
+			<h5>Title</h5>
+			<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+			<div id="border3"></div>
+			<h5>Title</h5>
+			<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+		</div>
+
+		<div id="adv">
+			advertisement
+		</div>
+	</div>
+
+</section>
+
+<section class="footer">
+	footer
+</section>
+
+</body>
+</html>
