@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>position</title>
+<style type="text/css">
+	header {
+	    background-color: #529dca;
+	}
+	img {
+	    height: 220px;
+	    width: 260px;
+	}
+	div#logo {
+	    display: inline-block;
+	    margin-right: 357px;
+	}
+	div#nav {
+	    display: inline-block;
+	    position: relative;
+	    bottom: 105px;
+	}
+	div#nav a {
+	    background-color: silver;
+	    text-decoration: none;
+	    border-radius: 100%;
+	    padding: 60px;
+	    font-size: 24px;
+	}
+	a#about {
+    margin-left: 85px;
+    margin-right: 85px;
+	}
+    main {
+        margin: 27px 0px;
+    }
+	main section {
+	    background-color: blanchedalmond;
+	    height: 508px;
+	    width: 495px;
+	    display: inline-block;
+	    border: 1px solid blanchedalmond;
+	}
+	section.two {
+	    height: 556px;
+	    width: 710px;
+	    margin-left: 80px;
+	    margin-right: 80px;
+	    position: relative;
+	}
+	section.one {
+	    position: relative;
+	    top: 22px;
+	}
+	section.three {
+	    position: relative;
+	    top: 22px;
+	    box-sizing: border-box;
+	    padding: 38px;
+	}
+	div#topleft {
+	    height: 40px;
+	    width: 40px;
+	    background-color: #74cea0;
+	    border-bottom-right-radius: 100%;
+	    position: absolute;
+	    top: -10px;
+	    left: -10px;
+	}
+	div#topright {
+	    height: 40px;
+	    width: 40px;
+	    background-color: #74cea0;
+	    border-bottom-left-radius: 100%;
+	    position: absolute;
+	    top: -10px;
+	    right: -10px;
+	}
+	section.two #rightpin {
+	    position: absolute;
+	    height: 57px;
+	    width: 57px;
+	    bottom: -24px;
+	    right: -7px;
+	}
+	section.two #leftpin {
+	    position: absolute;
+	    height: 57px;
+	    width: 57px;
+	    bottom: -24px;
+	    left: -27px;
+	}
+	footer{
+		background-color: #529dca;
+	}
+	.thefooter div {
+	    display: inline-block;
+	}
+	div#leftfoot {
+	    margin-left: 37px;
+	    margin-right: 746px;
+	}
+	div#midfoot {
+	    margin-right: 829px;
+	}
+</style>
+</head>
+
+<body>
+<header>
+	<div id="logo">
+		<img src="http://www.unixstickers.com/image/cache/data/stickers/bower/Bower.sh-600x600.png">
+	</div>
+	<div id="nav">
+		<a href="">Home</a>
+		<a id="about" href="">About</a>
+		<a href="">Contact</a>
+	</div>
+</header>
+
+<main>
+	<section class="one">
+		<p>Lorem ipsum</p>
+	</section>
+	<section class="two">
+		b
+		<div id="topleft"></div>
+		<div id="topright"></div>
+		<h2>Position Training</h2>
+
+		<img id="leftpin" src="http://www.clker.com/cliparts/B/V/P/X/Z/e/thumbtack-pushpin-2-hi.png">
+		<img id="rightpin" src="http://www.clker.com/cliparts/B/V/P/X/Z/e/thumbtack-pushpin-2-hi.png">
+	</section>
+	<section class="three">
+		c
+	</section>
+</main>
+
+<footer>
+<section class="thefooter">
+	<div id="leftfoot">
+		<p>Home</p>
+		<p>About</p>
+		<p>Contact</p>
+	</div>
+	<div id="midfoot">
+		<p>Facebook</p>
+		<p>Twitter</p>
+		<p>Instagram</p>
+		<p>Github</p>
+	</div>
+	<div id="rightfoot">
+		<p>Something</p>
+		<p>something else</p>
+	</div>
+</section>
+</footer>
+</body>
+
+</html>
