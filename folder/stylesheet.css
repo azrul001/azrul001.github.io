@@ -1,0 +1,61 @@
+*{
+	margin: 0
+}
+div#wrapper {
+    background: #afc1d0;;
+    width: 80%;
+    margin: 2% auto;
+    padding: 1%;
+    box-sizing: border-box;
+    border: 1px solid gainsboro;
+
+}
+h3 {
+    border: none;
+    border-bottom: 2px solid red;
+    width: 12%;
+    margin-bottom: 2%;
+}
+#left{
+	display: inline-block;
+	width: 48%;
+    margin-right: 3.5%;
+    vertical-align: top;
+}
+#right{
+	display: inline-block;
+	width: 48%;
+	vertical-align: top;
+}
+#left input {
+    border: 1px inset;
+    border-radius: 2px;
+    display: inline-block;
+    width: 86%;
+}
+#left label {
+    width: 12%;
+    display: inline-block;
+}
+textarea {
+    resize: none;
+    border: 1px inset;
+}
+fieldset {
+    padding: 2%;
+}
+label#answer {
+    display: block;
+}
+input[type=text]:focus {
+    background-color: lightblue;
+}
+input[type=email]:focus {
+    background-color: lightblue;
+}
+input[type=password]:focus {
+    background-color: lightblue;
+}
+textarea:focus {
+    background-color: lightblue;
+}

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>starter</title>
+	<link rel="stylesheet" type="text/css" href="stylesheet.css">
+</head>
+<body>
+<div id="wrapper">
+<h3>Fill in the form below</h3>
+	<form id="left">
+		<fieldset>
+			<legend>Personal Information</legend>
+				<label for="name">Name</label>
+					<input type="text" name="name"></br></br>
+				<label for="email">Email</label>
+					<input type="email" name="email"></br></br>
+				<label id="lpwd" for="pwd">Password</label>
+					<input type="password" name="password"></br></br>
+				<label for="desc">Description</label>
+					<textarea name="message" rows="10" cols="80"></textarea>
+		</fieldset>
+	</form>
+	<form id="right">
+		<fieldset>
+			<legend>Make your choice</legend>
+				<label for="fav">Your favourite color</label>
+					<select id="color" name="color">
+						<option value="red">Red</option>
+						<option value="blue">Blue</option>
+						<option value="yellow">Yellow</option>
+					</select></br></br></br>
+				<label id="answer" for="ans">Which month has 28 days?</label></br>
+					<input type="radio" name="a" value="all" checked> All of them
+					<input type="radio" name="a" value="six"> The first six
+					<input type="radio" name="a" value="feb"> February
+					</br></br></br>
+				<label id="pick" for="pick">Pick your passion</label></br>
+					<input type="checkbox" name="passion" value="Fishing"> Fishing</br>
+					<input type="checkbox" name="passion" value="Hunting"> Hunting</br>
+					<input type="checkbox" name="passion" value="Workout"> Workout</br>
+					<input type="checkbox" name="passion" value="Making money"> Making money</br>
+					<input type="checkbox" name="passion" value="Sleep"> Sleep</br>
+					<input type="checkbox" name="passion" value="Eat"> Eat</br></br>
+
+		</fieldset>
+
+	</form>
+	
+</div><!--end of wrapper-->
+</body>
+</html>
