@@ -47,6 +47,7 @@ textarea {
 }
 fieldset {
     padding: 2%;
+	height: 353px
 }
 label#answer {
     display: block;
