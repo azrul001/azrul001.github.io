@@ -32,10 +32,14 @@ h3 {
     border-radius: 2px;
     display: inline-block;
     width: 86%;
+	padding: 1%;
+    box-sizing: border-box;
 }
 #left label {
     width: 12%;
     display: inline-block;
+	padding: 1%;
+    box-sizing: border-box;
 }
 textarea {
     resize: none;
