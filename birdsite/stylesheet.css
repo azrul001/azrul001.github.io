@@ -1,0 +1,63 @@
+*{
+	margin: 0
+}
+div#wrapper {
+    background: rgb(132, 173, 112);
+    width: 100%;
+    margin: 2% auto;
+    padding: 1%;
+    box-sizing: border-box;
+    border: 1px solid gainsboro;
+    margin: 2% auto;
+}
+h3 {
+    border: none;
+    border-bottom: 2px solid red;
+    width: 12%;
+    margin-bottom: 2%;
+}
+#left{
+	display: inline-block;
+	width: 48%;
+    margin-right: 3.5%;
+    vertical-align: top;
+}
+#right{
+	display: inline-block;
+	width: 48%;
+	vertical-align: top;
+}
+#left input {
+    border: 1px inset;
+    border-radius: 2px;
+    display: inline-block;
+    width: 75.7%;;
+}
+#left label {
+    width: 22%;
+    display: inline-block;
+    vertical-align: top;
+}
+textarea {
+    resize: none;
+    border: 1px inset;
+    margin-bottom: 1%;
+}
+fieldset {
+    padding: 2%;
+}
+label#answer {
+    display: block;
+}
+input[type=text]:focus {
+    background-color: lightblue;
+}
+input[type=email]:focus {
+    background-color: lightblue;
+}
+input[type=password]:focus {
+    background-color: lightblue;
+}
+textarea:focus {
+    background-color: lightblue;
+}
