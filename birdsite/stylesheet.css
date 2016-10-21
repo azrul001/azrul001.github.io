@@ -9,6 +9,7 @@ div#wrapper {
     box-sizing: border-box;
     border: 1px solid gainsboro;
     margin: 2% auto;
+	border-radius: 14px;
 }
 h3 {
     border: none;
