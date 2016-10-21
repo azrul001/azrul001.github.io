@@ -29,9 +29,11 @@ h3 {
 }
 #left input {
     border: 1px inset;
-    border-radius: 2px;
+    border-radius: 15px;
     display: inline-block;
-    width: 75.7%;;
+    width: 73.7%;
+    padding: 2%;
+    box-sizing: border-box;
 }
 #left label {
     width: 22%;
@@ -42,9 +44,17 @@ textarea {
     resize: none;
     border: 1px inset;
     margin-bottom: 1%;
+    border-radius: 20px;
+    padding: 9px;
+    box-sizing: border-box;
 }
 fieldset {
     padding: 2%;
+    height: 249px;
+}
+select#color {
+    padding: 1.5%;
+    border-radius: 13px;
 }
 label#answer {
     display: block;
