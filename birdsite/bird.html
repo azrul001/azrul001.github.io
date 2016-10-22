@@ -6,11 +6,11 @@
 <style type="text/css">
 
 	div#wrapper1 {
-	    width: 70%;
+	    width: 77%;
 	    margin: 2% auto;
 	}
 	header {
-	    background-color: rgba(73, 138, 40, 0.85);
+	    background: linear-gradient(45deg, rgba(166, 222, 56, 0.65) 0%,rgba(151, 90, 222, 0.83) 50%,rgba(18, 113, 12, 0.74) 100%);
 	    border-top-right-radius: 180px;
 	    border-top-left-radius: 180px;
 	    box-sizing: border-box;
@@ -42,41 +42,48 @@
 	    width: 60%;
 	    vertical-align: middle;
 	    line-height: 3;
+
 	}
 	div#nav a {
-	    border: 1px solid greenyellow;
+	    border: 2px solid greenyellow;
 	    padding: 4% 8%;
-	    background-color: rgba(170, 224, 39, 0.54);
+	    background: linear-gradient(45deg, rgb(119, 136, 143) 0%,rgba(37, 255, 34, 0.95) 50%,rgba(18, 113, 12, 0.88) 100%);
 	    text-decoration: none;
 	    border-top-left-radius: 29px;
 	    border-bottom-right-radius: 28px;
+	    
 	}
 	a:hover {
-    box-shadow: 0 4px 8px 0 rgb(33, 218, 56), 0 6px 20px 0 rgb(33, 218, 56);
+    	box-shadow: 0 4px 8px 0 rgb(33, 218, 56), 0 6px 20px 0 rgb(33, 218, 56);
+    	color: gray;
+    	font-weight: 600;
 	}
 	a#about {
     	margin: 0 5%;
 	}
 	main {
-	    background-color: rgb(128, 103, 103);
+	    background: linear-gradient(45deg, rgba(139, 218, 90, 0.65) 0%,rgba(255, 87, 34, 0.48) 50%,rgba(18, 113, 12, 0.74) 100%);
 	    margin: 0.5% 0;
 	}
 	main section {
-	    background-color: rgb(73, 148, 93);
+	    background: linear-gradient(45deg, rgba(139, 218, 90, 0.65) 0%,rgba(78, 34, 255, 0.48) 50%,rgba(18, 113, 12, 0.74) 100%);
 	    height: 520px;
-	    width: 30%;
-	    margin: 1.5%;
+	    width: 31%;
+	    margin: 1%;
 	    display: inline-block;
 	    vertical-align: top;
 	    padding: 1%;
 	    box-sizing: border-box;
 	    color: azure;
+	    border-radius: 20px;
+	    border: 1px solid yellowgreen;
+	    box-shadow: 0px 6px 8px 0px rgb(33, 218, 56), 0px 6px 20px 0px rgb(33, 218, 56);
 	}
 	.three h1 {
     	margin-bottom: 15%;
 	}
 	footer {
-	    background-color: #649b48;
+	    background: linear-gradient(45deg, rgba(58, 224, 55, 0.95) 0%,rgba(151, 90, 222, 0.83) 50%,rgba(18, 113, 12, 0.74) 100%);
 	    border-bottom-right-radius: 140px;
 	    border-bottom-left-radius: 140px;
 	    box-sizing: border-box;
@@ -132,48 +139,52 @@
 	    text-align: center;
 	    position: relative;
 	}
-	#triangle-topleft {
+	/*#triangle-topleft {
 	    height: 0;
 	    width: 0;
-	    border-top: 35px solid rgba(25, 30, 33, 0.6);
-	    border-right: 35px solid transparent;
+	    border-top: 35px solid rgba(255, 87, 34, 0.48);
+	    border-right: 35px solid rgba(255, 44, 34, 0.48);
 	    position: absolute;
-	    top: -1%;
-    	left: -2.5%;
+	    top: 0%;
+	    left: 0%;
+	    border-radius: 100%;
 	}
 	#triangle-topright {
-		height: 0;
+	    height: 0;
 	    width: 0;
-	    border-top: 35px solid rgba(25, 30, 33, 0.6);
-	    border-left: 35px solid transparent;
+	    border-top: 35px solid rgba(255, 87, 34, 0.48);
+	    border-left: 35px solid rgba(255, 87, 34, 0.48);
 	    position: absolute;
-	    top: -1%;
-    	right: -2.5%;
+	    top: 0%;
+	    right: 0%;
+	    border-radius: 100%;
 	}
 	#triangle-bottomleft {
-		height: 0;
+	    height: 0;
 	    width: 0;
-	    border-bottom: 35px solid rgba(25, 30, 33, 0.6);
-	    border-right: 35px solid transparent;
+	    border-bottom: 35px solid rgba(255, 87, 34, 0.48);
+	    border-right: 35px solid rgba(255, 87, 34, 0.48);
 	    position: absolute;
-	    bottom: -1.5%;
-	    left: -2.5%;
+	    bottom: 0%;
+	    left: 0%;
+	    border-radius: 100%;
 	}
 	#triangle-bottomright {
-		height: 0;
+	    height: 0;
 	    width: 0;
-	    border-bottom: 35px solid rgba(25, 30, 33, 0.6);
-	    border-left: 35px solid transparent;
+	    border-bottom: 35px solid rgba(255, 87, 34, 0.48);
+	    border-left: 35px solid rgba(255, 87, 34, 0.48);
 	    position: absolute;
-	    bottom: -1.5%;
-	    right: -2.5%;
-	}
+	    bottom: 0%;
+	    right: 0%;
+	    border-radius: 100%;
+	}*/
 	.two #birdie{
 		width: 20%;
 	}
 	iframe{
-		border: 6px inset grey;
-    		box-sizing: border-box;
+		border: 4px inset grey;
+    	box-sizing: border-box;
 	}
 	.three{
 		position: relative;
@@ -183,7 +194,7 @@
 	    height: 20%;
 	    position: absolute;
 	    top: -9%;
-	    left: 40%;
+	    left: 36%;
 	    -webkit-transition: width 2s, height 2s, -webkit-transform 2s;
 	    transition: width 1s, height 1s, opacity 3s, transform 2s;
 	}
@@ -216,19 +227,17 @@
 	    opacity: 0;
 	    transition: width 0s, height 0s, opacity 2s, transform 2s;
 	}
-	#multicolumn{
-		background: url(https://i.ytimg.com/vi/n-9ZLWnFbOI/maxresdefault.jpg);
+	#multicolumn {
 	    margin: 0.5% 0;
+	    background: linear-gradient(45deg, rgb(119, 136, 143) 0%,rgba(37, 255, 34, 0.95) 50%,rgba(18, 113, 12, 0.88) 100%);
 	    border: 1px solid #ddd;
-	    color: #ffbe7a;
+	    color: #655c53;
 	    padding: 2%;
 	    box-sizing: border-box;
 	    font-size: large;
-
 	    -webkit-column-count: 3;
 	    -moz-column-count: 3;
 	    column-count: 3;
-
 	    -webkit-column-rule: 1px solid lightblue;
 	    -moz-column-rule: 1px solid lightblue;
 	    column-rule: 1px solid lightblue;
@@ -236,7 +245,7 @@
 	#multicolumn h3 {
 	    -webkit-column-span: all;
 	    column-span: all;
-	    width: 33%;
+	    width: 29%;
 	}
 </style>
 </head>
@@ -277,7 +286,7 @@
 		<section class="three">
 			<h1>Type of birds</h1>
 			<iframe width="99%" height="42%" src="https://www.youtube.com/embed/YTR21os8gTA" frameborder="0" allowfullscreen>
-			</iframe></br>
+			</iframe>
 
 			<img id="birdie" src="http://www.vintagefangirl.com/wp-content/uploads/2012/03/vintage-blue-jay-bird.png">
 			<img id="flybirdie" src="http://freepngimages.com/wp-content/uploads/2015/06/jay-bird-flying.png">
@@ -307,7 +316,7 @@
 				<label id="lpwd" for="pwd">Password</label>
 					<input type="password" name="password"></br></br>
 				<label for="desc">Description</label>
-					<textarea name="message" rows="4" cols="36"></textarea>
+					<textarea name="message" rows="4" cols="41"></textarea>
 		</fieldset>
 	</form>
 	<form id="right">
@@ -323,7 +332,7 @@
 					<input type="radio" name="a" value="all" checked> All of them
 					<input type="radio" name="a" value="six"> The first six
 					<input type="radio" name="a" value="feb"> February
-					</br></br></br>
+					</br></br>
 				<label id="pick" for="pick">Pick your passion</label></br>
 					<input type="checkbox" name="passion" value="Fishing"> Fishing</br>
 					<input type="checkbox" name="passion" value="Hunting"> Hunting</br>
