@@ -2,19 +2,17 @@
 	margin: 0
 }
 div#wrapper {
-    background: rgb(132, 173, 112);
+    background: rgba(132, 173, 112, 0.24);
     width: 100%;
-    margin: 2% auto;
     padding: 1%;
     box-sizing: border-box;
-    border: 1px solid gainsboro;
-    margin: 2% auto;
-	border-radius: 14px;
+    border: 1px solid rgba(37, 255, 34, 0.52);
+    margin: 1% auto;
 }
 h3 {
     border: none;
     border-bottom: 2px solid red;
-    width: 12%;
+    width: 10%;
     margin-bottom: 2%;
 }
 #left{
@@ -32,7 +30,7 @@ h3 {
     border: 1px inset;
     border-radius: 15px;
     display: inline-block;
-    width: 73.7%;
+    width: 72.7%;
     padding: 2%;
     box-sizing: border-box;
 }
@@ -51,7 +49,7 @@ textarea {
 }
 fieldset {
     padding: 2%;
-    height: 249px;
+    height: 255px;
 }
 select#color {
     padding: 1.5%;
@@ -71,4 +69,14 @@ input[type=password]:focus {
 }
 textarea:focus {
     background-color: lightblue;
+}
+input[type="radio"] {
+    width: 9%;
+    height: 6%;
+    vertical-align: top;
+}
+input[type="checkbox"] {
+    height: 6%;
+    width: 9%;
+    vertical-align: top;
 }
