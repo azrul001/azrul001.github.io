@@ -1,0 +1,47 @@
+.box{
+	height: 410px;
+	background-color: red;
+}
+.col1 {
+	height: 410px;
+	
+    background-image: url(../images/img1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}       
+.col2 {
+	height: 410px;
+	
+    background-image: url(../images/img2.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.col3 {
+	height: 410px;
+	
+    background-image: url(../images/img3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.col4 {
+	height: 410px;
+	
+    background-image: url(http://www.wallpaperun.com/wp-content/uploads/2016/03/Amazing-Wallpaper-Picture-A2Z.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.jumb {
+    padding: 10%;
+    background-image: url(http://www.wearenice.com/shared/bg-picture-purple-pattern.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: darkgoldenrod;
+}
+.jumb p{
+	color: #ecffbf;
+}
