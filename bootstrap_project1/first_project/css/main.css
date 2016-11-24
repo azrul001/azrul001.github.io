@@ -1,0 +1,348 @@
+*{
+	font-family: 'Lato', sans-serif;
+}
+strong {
+    font-weight: 900;
+}
+.purple_shade{
+    height: auto;
+    background: rgba(140, 60, 189, 0.48);
+    padding: 57px 0 60px 0;
+}
+#home{
+	background-image: url(../images/homebg.png);
+    background-attachment: fixed;
+	background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 600px;
+    padding: 200px 0;
+    color: white;
+}
+#home h1{
+	height: 108px;
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+    font-size: 84px;
+    margin: 6px;
+    display: inline-block;
+    font-weight: 100;
+}
+#home h4 {
+    font-weight: 100;
+    font-size: 26px;
+}
+#home a i{
+	margin-top: 10px;
+    color: white;
+}
+#home a i:hover{
+    color: #d0d0d0;
+}
+#aboutus{
+	background-image: url(../images/aboutbg.png);
+    background-attachment: fixed;
+	background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 400px;
+    padding: 133px 0;
+    color: white;
+    text-align: center;
+}
+#aboutus h3{
+	font-weight: 100;
+    font-size: 25px;
+    letter-spacing: 3px;
+}
+#aboutus p {
+    display: inline-block;
+    font-weight: 100;
+    font-size: 19px;
+    color: #d0d0d0;
+}
+#aboutus a{
+    text-decoration: underline;
+    color: white;
+    font-weight: bold;
+    font-weight: 100;
+}
+#aboutus hr{
+	width: 81px;
+}
+#services{
+    height: auto;
+    padding-bottom: 80px;
+}
+#services .head_title {
+    color: #9c44d4;
+    text-align: center;
+    height: 180px;
+    padding-top: 75px;
+}
+#services .services_box .head_title h3 {
+    font-weight: 300;
+    font-size: 26px;
+    letter-spacing: 2px;
+}
+#services i{
+    color: #c1c1c1;
+}
+.icon_row {
+    margin-bottom: 13px;
+}
+#services .faicon{
+    border-right: 2px solid #cb9ee8;
+    padding: 0;
+    width: 21%;
+    height: 49px;
+}
+.servis {
+    margin-top: 40px;
+    padding-left: 23px;
+}
+.servis_title h3 {
+    margin: 0;
+    font-weight: 900;
+}
+.servis_title h4 {
+    margin: 3px 0 3px 0;
+    font-weight: 300;
+    color: #a46dc6;
+    font-size: 20px;
+}
+.servis_desc {
+    padding: 0;
+    width: 90%;
+}
+.servis_desc p {
+    color: #949494;
+    font-size: 14px;
+    line-height: 1.5;
+}
+#our_skills{
+    height: auto;
+   	background-image: url("http://www.rd.com/wp-content/uploads/sites/2/2016/08/01_happy_place_7_secrets_frazzled_KristinaJovanovic.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+}
+#our_skills .dark{
+	height: auto;
+	background: rgba(0, 0, 0, 0.59);
+}
+#our_skills .skil_one{
+    margin-top: 76px;
+}
+#our_skills .skil_one h1{
+    font-weight: 900;
+    font-size: 50px;
+    margin-bottom: 0;
+}
+#our_skills .skil_one h3{
+    font-weight: 100;
+    font-size: 27px;
+    margin-top: 0;
+}
+#our_skills .skil_two{
+    margin: 20px 0 10px 0;
+    font-weight: 100;
+}
+#our_skills .skil_three a {
+    display: inline-block;
+    border-bottom: 3px solid;
+    font-weight: 300;
+    line-height: 2;
+    text-decoration: none;
+    color: #bfb9b9;
+    font-size: 17px;
+}
+#our_skills .skil_three a:nth-child(2) {
+    color: #910de6;
+    margin-left: 30px;
+}
+#our_skills .the_bar {
+    padding-top: 70px;
+    padding-bottom: 60px;
+}
+#our_skills .the_bar .bar{
+    width: 117%;
+    padding-right: 40px;
+}
+#our_skills .dark .bar .progress{
+	height: 31px;
+    background: rgb(43, 37, 37);
+    border-radius: 6px;
+    width: 93%;
+}
+#our_skills .dark .bar .progress-bar{
+	width: 50%;
+    background-image: -webkit-gradient(linear, 0% 0%, 100% 0%, from(rgb(230, 56, 56)), from(rgba(150, 16, 230, 0.91)), to(rgba(234, 40, 40, 0.77)));
+}
+
+
+#portfolio{
+    height: auto;
+    padding-bottom: 100px;
+}
+#portfolio .folio_title {
+    color: #9c44d4;
+    text-align: center;
+    height: 208px;
+    padding-top: 75px;
+}
+#portfolio .folio_title h3 {
+    font-weight: 300;
+    font-size: 26px;
+    letter-spacing: 2px;
+}
+#portfolio .picture .folio1, .folio3, .folio4, .folio5, .folio6{
+    /*background-image: url(../images/homebg.png);*/
+    height: 270px;
+    background-image: url("https://cdn.pixabay.com/photo/2015/11/07/11/28/pebbles-1031167_960_720.jpg"); 
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#portfolio .picture .folio2{
+    /*background-image: url(../images/homebg.png);*/
+    height: 270px;
+    background-image: url("https://cdn.pixabay.com/photo/2015/11/07/11/28/pebbles-1031167_960_720.jpg"); 
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+}
+#portfolio .picture .folio2 .the_tree h2{
+	border-top: 1px solid;
+    border-bottom: 1px solid;
+    font-weight: 300;
+    display: inline-block;
+    padding: 5px;
+}
+#portfolio .picture .folio2 .the_tree{
+    padding-top: 80px;
+    background: rgba(140, 60, 189, 0.48);
+}
+#portfolio .picture .folio2 .search_icon{
+    padding-top: 49px;
+    background: rgba(140, 60, 189, 0.48);
+    padding-bottom: 37px;
+}
+#portfolio .picture .folio2 .search_icon i{
+    font-weight: 100;
+}
+#partition{
+    padding-bottom: 100px;
+}
+#partition .part1, .part2, .part3, .part4{
+    background-image: url("https://cdn.pixabay.com/photo/2015/11/07/11/28/pebbles-1031167_960_720.jpg"); 
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    padding: 0px 0 0px 0;
+}
+#partition h2{
+    margin-top: 7px;
+    font-weight: 900;
+}
+#partition h4{
+    margin: 10px;
+    font-weight: 300;
+    font-size: 21px;
+    color: rgb(198, 192, 202);
+}
+#ehab{
+    height: auto;
+    background-image: url("http://www.rd.com/wp-content/uploads/sites/2/2016/08/01_happy_place_7_secrets_frazzled_KristinaJovanovic.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #e0d9d9;
+}
+#ehab .purple_shade {
+    height: auto;
+    background: rgba(140, 60, 189, 0.48);
+    padding: 100px 0 100px 0;
+}
+#ehab h3{
+    font-weight: 900;
+    color: white;
+}
+#ehab h3 span {
+    font-weight: 300;
+    font-size: 20px;
+}
+#ehab img{
+    width: 83px;
+    height: 82px;
+    border-radius: 6px;
+    margin: 13px 0 30px 0px;
+}
+#ehab p{
+    font-size: 18px;
+    font-weight: 300;
+    padding: 0 200px 0 200px;
+}
+#contact_us{
+    padding: 100px 0 100px 0
+}
+#contact_us .contact_map img{
+    height: 400px;
+    border-radius: 5px;
+}
+#contact_us .contact_form .form-control {
+    background-color: rgb(245, 245, 245);
+    font-size: 15px;
+    padding: 22px 18px;
+}
+#contact_us .contact_form .form-control:focus {
+    color: purple;
+    border: 1px solid rgb(183, 79, 199);
+    background: white;
+}
+#top_foot{
+    background-image: url(../images/homebg.png);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+}
+#top_foot h1{
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+    display: inline-block;
+    font-weight: 100;
+    font-size: 47px;
+    padding: 0px 10px 8px 10px;
+    margin-bottom: 23px;
+}
+#top_foot .dark {
+    height: auto;
+    padding: 69px 0 1px 0;
+    background: rgba(0, 0, 0, 0.59);
+}
+#top_foot i{
+    margin: 0 15px;
+}
+#top_foot a{
+    color: white;
+    text-decoration: none;
+}
+#top_foot .social{
+    margin-bottom: 57px;
+}
+.foot_content{
+    padding: 0;
+}
+.foot_bottom{
+    padding: 0;
+    background: rgba(0, 0, 0, 0.46);
+}
+.foot_bottom p {
+    margin-top: 6px;
+    margin-bottom: 6px;
+    font-size: 13px;
+    font-weight: 100;
+}
