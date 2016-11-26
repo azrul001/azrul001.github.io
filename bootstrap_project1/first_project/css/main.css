@@ -15,8 +15,8 @@ strong {
 	background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    height: 600px;
-    padding: 200px 0;
+    height: auto;
+    padding: 180px 0 180px 0;
     color: white;
 }
 #home h1{
@@ -45,8 +45,8 @@ strong {
 	background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    height: 400px;
-    padding: 133px 0 400px 0;
+    height: auto;
+    padding: 140px 0 140px 0;
     color: white;
     text-align: center;
 }
